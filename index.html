@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <script type="text/javascript" src="./script.js" async></script>
+  <script src="./script.js" async></script>
 
 </head>
 
@@ -36,13 +36,13 @@
       </div>
       <div class='formArea'>
         <form onsubmit="checkForBlank()">
-          <input placeholder='First Name' type='text' id='fname'>
+          <input placeholder='First Name' type='text' id='fname' aria-labelledby="first_name">
           <p id='error1' hidden>First Name cannot be empty</p>
-          <input placeholder='Last Name' type='text' id='lname'>
+          <input placeholder='Last Name' type='text' id='lname' aria-labelledby="last_name">
           <p id='error2' hidden>Last Name cannot be empty</p>
-          <input placeholder='Email Address' type='text' id='email-address'>
+          <input placeholder='Email Address' type='text' id='email-address' aria-labelledby="email_address">
           <p id='error3' hidden>Looks like this is not an email</p>
-          <input placeholder='Password' type='text' id='password'>
+          <input placeholder='Password' type='text' id='password' aria-labelledby="password">
           <p id='error4' hidden>Password cannot be empty</p>
           <button type=submit>CLAIM YOUR FREE TRIAL</button>
         </form>
