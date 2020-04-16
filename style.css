@@ -128,7 +128,7 @@ button{
     color:red;
     font-size: 10px;
     margin-top:5px;
-    margin-bottom:-13px;
+    margin-bottom:-18px;
 }
 .redEmail::placeholder{
     color: hsl(0, 100%, 74%) ;
