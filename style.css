@@ -163,8 +163,9 @@ button{
         text-align: center;
     }
     .tryArea{
+        padding-top: 2px;
         width:320px;
-        height: 45px;
+        height: 50px;
         margin:auto;
     }
     .formArea{
@@ -172,6 +173,10 @@ button{
         margin-left:auto;
         margin-right: auto;
         margin-bottom:20px;
+    }
+    .warn{
+        margin-top:2px;
+        line-height: 1.2;
     }
 }
 
