@@ -45,7 +45,7 @@ h1{
     background-color:hsl(248, 32%, 49%) ;
     color:white;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 10px;
     height: 40px;
     border-radius: 10px;
     max-width: 540px;
@@ -53,7 +53,7 @@ h1{
 }
 .try{
     display: inline;
-    font-weight: 600;
+    font-weight: 700;
 }
 .try2{
     display: inline;
@@ -135,7 +135,7 @@ button{
     opacity: 1;
 }
 .warn{
-    margin-top:20px;
+    margin-top:10px;
 }
 .warning{
     display: inline;
@@ -164,6 +164,7 @@ button{
     }
     .tryArea{
         width:320px;
+        height: 45px;
         margin:auto;
     }
     .formArea{
