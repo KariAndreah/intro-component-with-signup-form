@@ -6,6 +6,9 @@ Designed the desktop version. Need to add the form validations and make the app 
 *************************Issues****************************
 Making placeholder dissapear when the value in invalid. 
 
+Day 2: 
+Firgured out how to change placeholders on focus, and when values are invalid. 
+
 
 # Frontend Mentor - Intro component with sign up form
 
