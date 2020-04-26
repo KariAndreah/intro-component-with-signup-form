@@ -7,7 +7,10 @@ Designed the desktop version. Need to add the form validations and make the app 
 Making placeholder dissapear when the value in invalid. 
 
 ## Day 2: 
-Firgured out how to change placeholders on focus, and when values are invalid. 
+Figured out how to change placeholders on focus, and when values are invalid. 
+
+## Day 3:
+Found a bug where the password wouldn't show error when empty if there is a valid email. It's because I had the else statement from the 'email' block before the if statement for the 'password' block. So the function was exiting before getting to the 'password' block. 
 
 
 # Frontend Mentor - Intro component with sign up form
